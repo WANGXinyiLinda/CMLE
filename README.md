@@ -1,12 +1,14 @@
 # Counterfactual Maximum Likelihood Estimation for Training Deep Network
 
-This repository is still under construction. We will release our code soon :)
+This repository is the official implementation of [Counterfactual Maximum Likelihood Estimation for Training Deep Network](https://arxiv.org/abs/2106.03831). 
 
-<!-- For details, see README in ./NLI for the natural language inference experiments and see README in ./IC for image captioning experiments. -->
+We propose two different training methods for Counterfactual Maximum Likelihood Estimation (CMLE), Implicit CMLE and Explicit CMLE. The models we use in the real-world experiments are illustrated below:
+![](model.jpg)
 
-<!-- This repository is the official implementation of [My Paper Title](https://arxiv.org/abs/2030.12345).  -->
 
-<!-- >📋  Optional: include a graphic explaining your approach/main result, bibtex entry, link to demos, blog posts and tutorials -->
+## Requirements and training
+
+We perform experiments on two different tasks, natural language inference (NLI) and image captioning (IC), that require different environments, datasets and models. To check each of the tasks, see README in ./NLI for the natural language inference experiments and see README in ./IC for image captioning experiments.
 
 <!-- ## Requirements
 
@@ -56,9 +58,9 @@ Our model achieves the following performance on :
 | ------------------ |---------------- | -------------- |
 | My awesome model   |     85%         |      95%       |
 
->📋  Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. 
+>📋  Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it.  -->
 
 
-## Contributing
+<!-- ## Contributing
 
 >📋  Pick a licence and describe how to contribute to your code repository.  -->
